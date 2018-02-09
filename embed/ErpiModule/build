@@ -1,0 +1,2 @@
+#!/bin/bash
+g++ -O3 ERPiModule.cpp -shared -I/home/ettiene/anaconda3/include/python3.6m/ -lpython3.5m -o ERPiModule.so
